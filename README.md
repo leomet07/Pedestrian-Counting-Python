@@ -1,10 +1,16 @@
 
+
 #  Pedestrian-Counting-Python
 
 This is a pedestrian detector in python. It is an app that detects how many people walk past a doorway or other place.
 
 
 # Installation
+To get the models into their folders:
+Follow the installation instructions from those folders
+
+ - My model: [Link](https://github.com/leomet07/Pedestrian-Counting-Python/blob/master/ssd_mobilenet_v1_coco_11_06_2017/README.md)
+ - COCO model: [Link](https://github.com/leomet07/Pedestrian-Counting-Python/blob/master/coco/README.md)
 
 Clone this repo and run withgui.py with python 3.5
 Required libraries:
