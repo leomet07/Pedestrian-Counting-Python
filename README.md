@@ -1,3 +1,4 @@
+
 #  Pedestrian-Counting-Python
 
 This is a pedestrian detector in python. It is an app that detects how many people walk past a doorway or other place.
@@ -10,9 +11,32 @@ Required libraries:
  1. Tensorflow
  2. Opencv
  3. Numpy
+ 
+ Also needed
+ -  TensorFlow Object Detection API(this is to run in the object_detection folder)
+-   Protobuf see the T.O.D.A. object detection folder for more installation help
+
+Just copy these files/folders into the T.O.D.A object_detection folder. If needed to replace then replace.
+**Make sure that this is running in the object detection folder of the tensorflow/models/research**
+
+
+
+# Usage
+After the program boots, it should look like this:
+![Normal veiw](https://lh6.googleusercontent.com/Nvo8CjHNE42eHDbu-u_-SOx0Zu-W-q-d6S_WXgU4LrhS9jgFh1KHALnoyGEpajq26i6ux9FtEZ7vcQSdQv2k=w1920-h969)
+
+Then type in the file name and type in the top left corner x value for the first form, the top lefty corner y value ,the width(pixels rightward) for the third form, and the height (pixels downward) for the last form.
+
+A window should pop-up displaying your video with only the part within the coordinates being displayed.
+
 
 
 # Models
 This app has two models to run off:
 A normal model (trained by me)
 And a COCO model (not recommended)
+To switch between these models, go to the veiw tab(shown in image) and toogle to the model of your choice
+![The model toogle menu](https://lh6.googleusercontent.com/Wngbm47aaZ8xLeKkRFOr8gDdOK4oZD70TiTWERTB1jR7W_3pDEZtQg_rZxfU-yoxpSXnZQgFoFe9LYtZWIHC=w1365-h969)
+
+
+
