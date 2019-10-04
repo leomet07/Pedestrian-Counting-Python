@@ -10,3 +10,9 @@ Required libraries:
  1. Tensorflow
  2. Opencv
  3. Numpy
+
+
+# Models
+This app has two models to run off:
+A normal model (trained by me)
+And a COCO model (not recommended)
