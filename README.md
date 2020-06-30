@@ -5,12 +5,15 @@ This is a pedestrian detector in python. It is an app that detects how many peop
 # Installation
 
 Install the Tensorflow Object Detetion API
+
 1 `git clone https://github.com/tensorflow/models`
 
 cd into research/. Downlaod my custom library and rename it to "object_detection" and override the old research/object_detection folder.
+
 2 `git clone https://github.com/leomet07/tensorflow-object-detection-api-custom`
 
 Install the main code in the research/ dir
+
 3 `git clone https://github.com/leomet07/Pedestrian-Counting-Python`
 
 Run withgui.py with python 3.5+ < 3.7
